@@ -1,22 +1,45 @@
-.App {
-  text-align: center;
+* {
+  margin: 0;
+  padding: 0;
 }
 
-.App-logo {
-  height: 40vmin;
+body {
+  font-family: Interstate, Lucida Grande, Lucida Sans Unicode, Lucida Sans,
+    Garuda, Verdana, Tahoma, sans-serif;
+    background: #6B7A8F;
 }
 
-.App-header {
-  background-color: #282c34;
-  min-height: 100vh;
+.navbar {
   display: flex;
-  flex-direction: column;
-  align-items: center;
   justify-content: center;
-  font-size: calc(10px + 2vmin);
-  color: white;
+  background: #222;
+  height: 10vh;
+  width: 100%;
 }
 
-.App-link {
-  color: #09d3ac;
+.navbar h1 {
+  color: #fff;
+  display: block;
+  padding: 0.6rem; 
+}
+
+
+
+.add {
+  margin: 10px;
+}
+
+.add-text {
+  width: 80%;
+  padding: 11px;
+  margin: 5px;
+  font-size: 18px;
+}
+
+
+.add-button {
+  width: 15%;
+  padding: 8px 16px;
+  font-size: 18px;
+  border: 1px solid black;
 }
